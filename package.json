@@ -1,0 +1,25 @@
+{
+  "name": "mycoin",
+  "version": "0.0.1",
+  "description": "MyCoin fork onto Ethereum",
+  "devDependencies": {
+    "solc": "^0.5.7",
+    "solpp": "^0.10.0"
+  },
+  "scripts": {
+    "build": "./hex-build.js",
+    "dist": "./hex-build.js && cp -p build/HEX.abi.json dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietmx/my-coin.git"
+  },
+  "author": "Vinson Mai <maixuanviet.com@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/vietmx/my-coin/issues"
+  },
+  "homepage": "https://www.maixuanviet.com",
+  "dependencies": {
+    "openzeppelin-solidity": "^2.2.0"
+  }
+}
